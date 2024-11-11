@@ -1,4 +1,4 @@
-name: Cloud check in action
+name: CLOUD 189
 on:
   push:
     branches:
@@ -8,7 +8,7 @@ on:
     types: started
   workflow_dispatch:
   schedule:
-    - cron: 35 3 * * *
+    - cron: 30  10 * * *
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
