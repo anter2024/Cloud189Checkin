@@ -1,4 +1,4 @@
-name: CLOUD 189
+name: Cloud check in action
 on:
   push:
     branches:
